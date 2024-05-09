@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <script type="text/javascript" src="ticket.js"></script>
+    <style>
+      body{
+        background-image: url(login.jpg);
+        background-repeat: no-repeat;
+        background-size: 110em 60em;
+                    }
+      div{
+        background-color: rgba(255, 103, 8, 0.886);
+        float:left;
+        width:30%;
+        height:100%;
+        color:rgb(251, 242, 244);
+        padding:10px;
+        line-height: 2em;
+
+      }
+      label{
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: bolder;
+        color:rgb(237, 232, 234);
+        padding:20px;
+      }
+      li{
+        color:rgb(243, 243, 231);
+        font-style:bold;
+        font-size: larger;
+      }
+      p{
+        color:snow;
+      }
+      
+    </style>
+</head>
+<body>
+
+  <div>
+   <img src="r00.jpg"  alt="krishna" width="390px" height="200px"><br>
+    <h1>Life History of Krishna</h1>
+    <p>Purchase your tickets online! </p>
+<ul>
+  <li>Rs.50 - Adult</li>
+  <li>Rs.20 - Child</li>
+  <li>Rs.30 - Senior </li>
+</ul>
+
+<label>Adult</label><input type="text" id="quantityAdult" value="0"><label>Tickets </label> 
+<br><br>
+<label>Child</label><input type="text" id="quantityChild" value="0"><label>Tickets</label>
+<br><br>
+<label>Senior</label><input type="text" id="quantitySenior" value="0"> <label>Tickets</label>
+<img src="artpayment.png" alt="" width="70px" height="70px"><br>Payment QRcode
+<br><br>
+<button type="submit" id="submitButton">Submit</button>
+
+<p id="totalPrice"></p></div>
+
+</body>
+</html>
